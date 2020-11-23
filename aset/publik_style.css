@@ -1,0 +1,147 @@
+/* 
+    Document   : style
+    Created on : Jul 6, 2013, 5:41:29 PM
+    Author     : rian    
+*/
+body{
+    position: absolute;    
+    width:100%;
+    
+}
+#wrapper{  
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+#header{   
+    height: 80px;    
+    z-index: 99;   
+    background: dodgerblue;    
+}
+#logo{    
+    position: absolute;    
+    width : 400px;
+    height:  100px;       
+    background-repeat: no-repeat;
+    margin: 15px 70px;
+}
+#nav-menu{
+    position: absolute;
+    top: 35px;
+    left: 770px;
+    width: 600px;
+}
+#nav-menu li{
+    float: left;
+    list-style: none;    
+    margin-left: 30px;    
+}
+#nav-menu li a,#nav-menu li a:active,#nav-menu li a:visited{
+    border-style: none;
+    text-decoration: none;
+    color: white;
+    font: bold .95em arial;
+}
+#main_page{    
+    background-image: url(images/cropkertas1.jpg);                        
+    z-index : 0;            
+}
+#konten{                  
+    padding-left:130px;  
+    padding-right: 70px;  
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#footer{                 
+    padding: 10px;
+    font: normal .8em arial;
+    z-index : 99;       
+    background: slateblue;        
+    height: 60px;    
+    color: white;    
+}
+/*--------------------- HOME ---------------------*/
+.Panel-home{    
+    margin: 0px 0px;
+    width: 550px;
+    height: 470px;    
+    border: 1px solid black;
+}
+.panel-menu{
+    position: relative;
+    margin-left: 600px;
+    margin-top: -470px;    
+    width: 590px;
+    height:  600px;
+}
+.Download,.Komunitas,.Dokumentasi,
+.Tentang{   
+    position: absolute;
+    width: 270px;
+    height: 270px;    
+    border: 1px solid black;      
+}
+.Download{    
+    margin-left:  300px;
+}
+.Komunitas{
+    margin: 0;
+}
+.Dokumentasi{
+    margin-top: 300px;
+    margin-left:  300px;
+}
+.Tentang{
+    margin: 0;
+    margin-top:  300px;    
+}
+
+/*--------------------- BLOG ---------------------*/
+#blog{
+    width: 1170px;    
+}
+#list_artikel{   
+    width: 650px;     
+}
+#popular_post,#arsip_post{
+    position: absolute;    
+    width: 300px;      
+    left: 900px;
+}
+#popular_post{        
+    top: 200px;
+    height: 250px;
+}
+#arsip_post{
+    top: 500px;
+    height: 400px;
+}
+
+/*--------------------- detail artikel ---------------------*/
+#detail_artikel{
+    width: 650px;     
+}
+.list_komentar{    
+    padding: 30px 0px;
+    width: 500px;
+}
+.komentar{
+    border: 2px dashed black;
+    margin-top: 10px;
+    padding: 20px;      
+}
+.error{
+    margin: 5px;
+    width: 400px;
+    padding: 10px;
+    color: red;
+    font: normal .8em verdana;
+    border: 2px dashed red;
+}
+.gambar{    
+    left: 100px;
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 100px;
+    height:  100px;
+}

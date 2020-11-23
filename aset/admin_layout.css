@@ -1,0 +1,65 @@
+/* 
+    Document   : admin_layout
+    Created on : Aug 23, 2013, 9:21:33 AM
+    Author     : riansyah
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    position: absolute;    
+    width:100%;
+    
+}
+#wrapper{  
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+#header{   
+    height: 80px;    
+    z-index: 99;   
+    background: dodgerblue;    
+}
+#logo{    
+    position: absolute;    
+    width : 400px;
+    height:  100px;       
+    background-repeat: no-repeat;
+    margin: 15px 70px;
+}
+#nav-menu{
+    position: absolute;
+    top: 35px;
+    left: 770px;
+    width: 600px;
+}
+#nav-menu li{
+    float: left;
+    list-style: none;    
+    margin-left: 30px;    
+}
+#nav-menu li a,#nav-menu li a:active,#nav-menu li a:visited{
+    border-style: none;
+    text-decoration: none;
+    color: white;
+    font: bold .95em arial;
+}
+#main_page{    
+    background-image: url(images/cropkertas1.jpg);                        
+    z-index : 0;            
+}
+#konten{                  
+    padding-left:130px;  
+    padding-right: 70px;  
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#footer{                 
+    padding: 10px;
+    font: normal .8em arial;
+    z-index : 99;       
+    background: slateblue;        
+    height: 60px;    
+    color: white;    
+}
